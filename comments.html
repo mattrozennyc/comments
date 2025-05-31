@@ -7,13 +7,13 @@
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://mattrozennyc.github.io/comments/comments.html';
-        this.page.identifier = 'google-site-comments';
+        this.page.url = 'https://mattrozennyc.github.io/comments/comments.html';  // <- make sure this matches your live URL
+        this.page.identifier = 'google-site-comments';  // <- can be any unique string
       };
 
-      (function () {
+      (function() {
         var d = document, s = d.createElement('script');
-        s.src = 'https://disqus_ttaJOgZhdh.disqus.com/embed.js';
+        s.src = 'https://disqus_ttaJOgZhdh.disqus.com/embed.js';  // <- NO @ symbol here
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       })();
