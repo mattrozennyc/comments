@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comments</title>
+  </head>
+  <body>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://mattrozennyc.github.io/comments/comments.html';
+        this.page.identifier = 'google-site-comments';
+      };
+
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://disqus_ttaJOgZhdh.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+  </body>
+</html>
